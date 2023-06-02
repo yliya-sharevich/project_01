@@ -49,7 +49,8 @@ def switch_it_up(number):
         0: "ноль"
     }
     return nums[number]
-print(switch_it_up(2))
+number = int(input("Введите число: "))
+print(switch_it_up(number))
 
 
 
